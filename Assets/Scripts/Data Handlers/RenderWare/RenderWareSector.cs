@@ -196,12 +196,13 @@ namespace TheWarriors
 
                             Texture2D texture = UnityTextureManager.GetTextureFromDictionary(textureName);
 
+                            /*
                             if (texture != null)
                             {
                                 byte[] bytes = texture.EncodeToPNG();
                                 File.WriteAllBytes(workpath + textureName + ".png", bytes);
                             }
-
+                            */
                         }
                     }
 
