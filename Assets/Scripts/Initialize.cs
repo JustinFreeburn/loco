@@ -42,7 +42,7 @@ public class Initialize : MonoBehaviour
 			throw new Exception("*** Error: Failed to create file metadata.");
 		}
 
-		if (!UnitySceneManager.LoadLevel("level117", _levelParent, _sectorsParent))
+		if (!UnitySceneManager.LoadLevel("level84", _levelParent, _sectorsParent))
         {
 			Debug.Log("*** Error: LoadLevel failed.");
         }

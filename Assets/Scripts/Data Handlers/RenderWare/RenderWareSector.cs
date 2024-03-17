@@ -164,7 +164,7 @@ namespace TheWarriors
 
                     foreach (Vector2 v in mesh.uv)
                     {
-                        sb.Append(string.Format("vt {0} {1}\n", v.x, v.y));
+                        sb.Append(string.Format("vt {0} {1}\n", v.x, (1.0f - v.y)));
                     }
 
                     foreach (Vector3 v in mesh.normals)
